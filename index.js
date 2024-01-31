@@ -22,11 +22,11 @@ const bot = new Client({
 const prefix = "?"
 const autoRespond = `\`\`\`js\n'===== This is Autorespond Message ====='\`\`\`\n*•*                          ***ID: Ada apa tag saya?***                         *•*\n*•*                          ***EN: Why you tag me?***                         *•*\n ==========================================\n\`\`\`js\n{ID: <Kalo penting reply chat ini>\n{EN:/* When your Massage is IMPORTANT\n    Please Do reply this Auto Massage */\n\`\`\`\n_\`\`\`Autorespond terkirim pada\n${moment().format('dddd DD/MM/YYYY')}\n                        © 2023 Sanshi14\`\`\`_`;
 
-app.use(express.static(path.join(__dirname, './WebSite')));
+app.use(express.static(path.join(__dirname, './Website')));
 
 // Menangani permintaan GET ke root URL ("/")
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, './WebSite/index.html'));
+  res.sendFile(path.join(__dirname, './Website/index.html'));
 });
 
 // Mulai server
