@@ -1,0 +1,7 @@
+# Dependensi dan pustaka
+node_modules/
+bower_components/
+
+# File konfigurasi lingkungan
+.env
+.env.*
