@@ -39,7 +39,7 @@ bot.on('ready', async () => {
     let pr = new RichPresence()
       .setName(config.name)
       .setType(config.type.toUpperCase())
-      .setApplicationId(process.env.CLIENTID)
+      .setApplicationId("" || process.env.CLIENTID)
       .setState(config.state)
       .setDetails(config.details)
 
@@ -98,4 +98,4 @@ bot.on('messageCreate', async (msg) => {
   }
 });
 
-bot.login(process.env.TOKEN);
+bot.login("" || process.env.TOKEN);
