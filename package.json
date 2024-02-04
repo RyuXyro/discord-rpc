@@ -9,11 +9,10 @@
   "keywords": [
     "Learning",
     "Self Learning",
-    "Sanshi14",
-    "RichPressence",
-    "Public Code"
+    "RyuXyro",
+    "RichPressence"
   ],
-  "author": "Sanshi14",
+  "author": "RyuXyro",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^20.3.1",
